@@ -1,16 +1,17 @@
-# React + Vite
+## 🎯 Practice Exercise 4: About Me Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Task:** Build a simple personal "About Me" page using multiple React components.
 
-Currently, two official plugins are available:
+**Requirements:**
+1. Create four components:  
+   * `Header.jsx` – shows **your name** and a **tagline** (e.g., *"Aspiring Developer from Lagos"*)  
+   * `Skills.jsx` – lists **5 tech skills** you’re currently learning  
+   * `Location.jsx` – displays **your city/state in Nigeria** and what makes your **tech community** special  
+   * `Footer.jsx` – contains **social media links** (Twitter, LinkedIn, GitHub)  
+2. Import all four components into `App.jsx` and arrange them vertically.  
+3. Style the page using **CSS** to make it look clean and professional.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Challenge:**  
+🎨 Add **Nigerian colors (green and white)** to your page design using CSS.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
