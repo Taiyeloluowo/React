@@ -1,3 +1,6 @@
+## About Me Page
+<img width="787" height="589" alt="about-me-page" src="https://github.com/user-attachments/assets/62e5ea27-8a62-49fd-a6b0-d30cc54d312f" />
+
 ## 🎯 Practice Exercise 4: About Me Page
 
 **Task:** Build a simple personal "About Me" page using multiple React components.
