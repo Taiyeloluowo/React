@@ -2,8 +2,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>© 2025 My App</div>
-  )
+    <div>
+      <p>© 2025 My App</p>
+    </div>
+  );
 }
 
 export default Footer

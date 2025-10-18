@@ -1,0 +1,23 @@
+#root {
+  max-width: 2280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.profile-card {
+  border: 1px solid #FFB703;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 16px auto;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}

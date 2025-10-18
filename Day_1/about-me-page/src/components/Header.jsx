@@ -2,11 +2,11 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>
+    <header>
       <h2>Taiyelolu Oluwagbotemi</h2>
-      <p>Foremost developer from Lagos, Nigeria.</p>
-    </div>
-  )
+      <p className='tag'>Foremost developer from Abeokuta, Nigeria.</p>
+    </header>
+  );
 }
 
 export default Header
