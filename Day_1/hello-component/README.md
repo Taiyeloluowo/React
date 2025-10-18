@@ -1,3 +1,18 @@
+## Hello Component
+https://github.com/user-attachments/assets/e16cf119-1de9-417e-8f88-4dd2470de73c
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 🎯 Practice Exercise 1: Hello Component
 
 **Task:** Create your first custom React component
