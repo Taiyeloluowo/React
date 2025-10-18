@@ -1,16 +1,26 @@
-# React + Vite
+## Profile Component
+<img width="656" height="633" alt="profile-component" src="https://github.com/user-attachments/assets/a08910f1-eddf-4630-9e7b-4f7bd3ff9cb5" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎯 Practice Exercise 3: Simple Layout
 
-Currently, two official plugins are available:
+**Task:** Combine multiple components together
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Requirements:**
+1. Create three components:
+   * `Header.jsx` - with site title "My React App"
+   * `Content.jsx` - with a heading and paragraph
+   * `Footer.jsx` - with "© 2025 My App"
+2. Import all three into `App.jsx` and arrange them vertically
 
-## React Compiler
+**Sample Output:**
+```
+My React App
+---
+Welcome to React
+This is my first multi-component app.
+---
+© 2025 My App
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Challenge:** Add a navigation menu to the Header with 3 links
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
