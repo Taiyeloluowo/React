@@ -1,0 +1,27 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+   padding: 40px;
+   width: 30%;
+   text-align: center;
+   border-radius: 20px;
+   margin: auto;
+   background-color: rgb(0, 50, 99);
+   color: white;
+   box-shadow: 0px 1px 5px rgb(38, 38, 38);
+
+   
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+
+
