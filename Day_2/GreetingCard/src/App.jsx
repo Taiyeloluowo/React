@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import GreetingCard from './GreetingCard';
+import GreetingCard from './components/GreetingCard';
 
 function App() {
 
