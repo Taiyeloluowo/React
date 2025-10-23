@@ -1,22 +1,26 @@
-import React from 'react'
-import  './ProductCard.css'
+function ProductCard({ name, price, image, inStock}) {
+    return(
+        <div className="container">
+            <div className="imageContainer">
+                <img className={`product_image ${!inStock ? "outOfStock" : ""}`} src={image} alt={name}></img>
+                {!inStock && <div className="notInStock"> Out of Stock </div>}
 
-const ProductCard = ({ name, price, image, inStock }) => {
-  return (
-    <div className='main-card'>
-        <div className='main-img'>
-            <img className={`product-img ${!inStock ? "out of stock" : ""}`} src={image} alt={name} />
-            {!inStock && <div className='notStock'> Out of Stock </div>}
+            </div>
+            
+            <h1 className="name">{name}</h1>
+            
+            <div className="priceStock">
+                <h3 className={`stockStatus ${inStock ? "in" : "out"}`}>
+                    {inStock ? "In Stock" : "Out of Stock"}
+                </h3>
+
+                <h3 className="price">₦{price}</h3>
+            </div>
+           
+            
+
         </div>
-
-        <h3 className='card-name'>{name}</h3>
-        <p className='card-price'>₦{price.toLocaleString()}</p>
-
-        <p className={`stockStus ${inStock ? "in" : "out"}`}>
-            {inStock ? "In Stock" : "Out of Stock"}
-        </p>
-    </div>
-  )
+    )
 }
 
-export default ProductCard
+export default ProductCard;
