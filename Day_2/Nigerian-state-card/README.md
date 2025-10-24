@@ -1,3 +1,7 @@
+## Nigerian State Card
+<img width="1365" height="538" alt="Nigerian State Card" src="https://github.com/user-attachments/assets/b39b8712-72d7-428d-adb3-d9d1b3a3246e" />
+
+
 ## 🎯 Task 3: Nigerian State Card
 
 **Task:** Create cards showing Nigerian states and their capitals
