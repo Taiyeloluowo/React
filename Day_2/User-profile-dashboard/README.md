@@ -1,3 +1,7 @@
+## User Profile Dashboard
+<img width="517" height="590" alt="User Profile Dashboard" src="https://github.com/user-attachments/assets/e03fb877-3988-4840-9021-6ae20adbdd43" />
+
+
 ## 🎯 Task 4: User Profile Dashboard
 
 **Task:** Build a complete user profile with multiple components using props

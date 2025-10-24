@@ -1,3 +1,7 @@
+## GreetingCard
+<img width="948" height="726" alt="greeting Card" src="https://github.com/user-attachments/assets/c3458dc9-f4db-4213-b32b-8a30a68bd4b2" />
+
+
 ## **Part 8: Practice Exercises**
 
 ## 🎯 Task 1: Greeting Card

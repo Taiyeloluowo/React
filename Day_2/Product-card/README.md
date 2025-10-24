@@ -1,3 +1,7 @@
+## Product Card
+<img width="1862" height="772" alt="Product Card" src="https://github.com/user-attachments/assets/77c28468-7bc6-4318-83a3-094da3415d74" />
+
+
 ## 🎯 Task 2: Product Card
 
 **Task:** Build a product card for a Nigerian e-commerce site
