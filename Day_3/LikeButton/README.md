@@ -1,3 +1,7 @@
+## Like Button
+<img width="565" height="425" alt="LikeButton" src="https://github.com/user-attachments/assets/4727bd64-0eee-4d61-bb47-219f33edf023" />
+
+
 ## 🎯 Task 2: Like Button
 
 **Task:** Create a like button that toggles between liked and unliked
