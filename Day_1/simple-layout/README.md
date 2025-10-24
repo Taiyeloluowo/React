@@ -1,3 +1,6 @@
+## Simple Layout
+<img width="584" height="610" alt="simple-layout" src="https://github.com/user-attachments/assets/2c0914ae-2071-4558-ac4a-8dbc823bbf74" />
+
 ## 🎯 Practice Exercise 3: Simple Layout
 
 **Task:** Combine multiple components together
