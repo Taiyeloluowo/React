@@ -1,0 +1,96 @@
+/* Center the entire body content */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e9eff4;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container styling */
+.container {
+  max-width: 400px;
+  width: 90%;
+  padding: 30px;
+  text-align: center;
+  background-color: #f1f5f9;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Count display */
+.container p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Buttons common styling */
+.btn_incre, .btn_decre, .btn_reset {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+/* Increment button */
+.btn_incre {
+  background-color: blue;
+}
+
+.btn_incre:hover {
+  background-color: rgb(162, 162, 203);
+}
+
+/* Decrement button */
+.btn_decre {
+  background-color: green;
+}
+
+.btn_decre:hover {
+  background-color: #c82333;
+}
+
+/* Reset button */
+.btn_reset {
+  background-color: orange;
+}
+
+.btn_reset:hover {
+  background-color: rgb(202, 180, 139);
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  .container p {
+    font-size: 1.8rem;
+  }
+
+  .btn_incre, .btn_decre, .btn_reset {
+    padding: 10px 15px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container p {
+    font-size: 1.6rem;
+  }
+
+  .btn_incre, .btn_decre, .btn_reset {
+    width: 100%;
+    margin: 8px 0;
+  }
+}
