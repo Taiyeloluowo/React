@@ -1,0 +1,93 @@
+/* ProfileDashboard.css */
+
+.app-container {
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+
+  font-family: "Poppins", sans-serif;
+  background-color: #0e3204;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.profile-card {
+  background: white;
+  width: 450px;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Profile Header */
+.profile-header {
+  text-align: center;
+}
+
+.profile-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 4px solid #00a36c;
+}
+
+.profile-name {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.profile-title {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* Stats Section */
+.profile-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.stat-item {
+  color: #444;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.stat-item:hover {
+  color: #00a36c;
+}
+
+/* Skills Section */
+.skills-section h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skill-badge {
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: transform 0.2s ease;
+}
+
+.skill-badge:hover {
+  transform: scale(1.1);
+}

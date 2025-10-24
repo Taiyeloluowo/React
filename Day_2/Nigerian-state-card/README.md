@@ -1,16 +1,25 @@
-# React + Vite
+## 🎯 Task 3: Nigerian State Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Task:** Create cards showing Nigerian states and their capitals
 
-Currently, two official plugins are available:
+**Requirements:**
+1. Create `StateCard.jsx`
+2. Accept props: `state`, `capital`, `region`, `population`
+3. Display all information in a styled card
+4. Use different background colors for different regions:
+   - North: `#8B4513`
+   - South: `#008751`
+   - East: `#FFD700`
+   - West: `#4169E1`
+5. Create 4 state cards in `App.jsx`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Sample Output:**
+```
+Lagos State
+Capital: Ikeja
+Region: South West
+Population: 14 million
+[Blue background]
+```
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Challenge:** Add a `children` prop to include a famous landmark for each state
