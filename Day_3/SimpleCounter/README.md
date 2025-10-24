@@ -1,16 +1,24 @@
-# React + Vite
+## **Part 8: Tasks**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎯 Task 1: Simple Counter
 
-Currently, two official plugins are available:
+**Task:** Create a counter that can increment, decrement, and reset
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Requirements:**
+1. Create `Counter.jsx`
+2. Use useState to manage count (starting at 0)
+3. Create three buttons:
+   - "+" to increment by 1
+   - "-" to decrement by 1
+   - "Reset" to set back to 0
+4. Display the current count
+5. Add CSS styling
 
-## React Compiler
+**Sample Output:**
+```
+Count: 5
+[+]  [-]  [Reset]
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Challenge:** Don't allow count to go below 0
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

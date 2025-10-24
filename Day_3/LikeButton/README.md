@@ -1,16 +1,19 @@
-# React + Vite
+## 🎯 Task 2: Like Button
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Task:** Create a like button that toggles between liked and unliked
 
-Currently, two official plugins are available:
+**Requirements:**
+1. Create `LikeButton.jsx`
+2. Use useState to manage liked state (boolean)
+3. Show different text/color when liked vs unliked
+4. Display like count (starts at 0, increases/decreases on toggle)
+5. Use emoji: ❤️ when liked, 🤍 when unliked
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Sample Output:**
+```
+[❤️ Liked] 1 like
+(Click to toggle)
+[🤍 Like] 0 likes
+```
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Challenge:** Disable button for 1 second after clicking (prevent spam)

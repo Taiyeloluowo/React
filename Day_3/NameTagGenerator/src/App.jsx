@@ -1,11 +1,11 @@
 import React from 'react'
-import Counter from './components/Counter'
+import NameTag from './components/NameTag'
 import './App.css'
 
 const App = () => {
   return (
     <div>
-      <Counter />
+      <NameTag />
     </div>
   )
 }

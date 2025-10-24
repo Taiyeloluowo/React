@@ -1,42 +1,155 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* my body style*/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #8390FA;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+/* like button container */
+.like-container {
   text-align: center;
+  background: #0E79B2;
+  padding: 40px 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* header */
+.like-container h2 {
+  margin-bottom: 25px;
+  color: #222;
+  font-size: 1.8rem;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Like Button */
+.like-btn {
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* When Liked */
+.liked {
+  background-color: #335C67;
+}
+
+.liked:hover {
+  background-color: #5DD39E;
+}
+
+/* When Unliked */
+.unliked {
+  background-color: #6c757d;
+}
+
+.unliked:hover {
+  background-color: #5a6268;
+}
+
+/* Disabled button effect */
+.like-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Like Count */
+.like-count {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Small hint text */
+.hint {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 8px;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .like-container {
+    padding: 30px 25px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .like-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .like-btn {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px 0;
+  }
+
+  .like-count {
+    font-size: 1rem;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+/* This is not in this task  */
+/* container hides overflow */
+.marquee {
+  width: 100%;
+  max-width: 420px;
+  /* match your container width if needed */
+  margin: 0 auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* the moving text */
+.marquee .hint {
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%;
+  /* start off-screen to the right */
+  font-size: 0.95rem;
+  color: black;
+  animation: marquee 8s linear infinite;
+}
+
+/* pause the animation when hovered */
+.marquee .hint:hover {
+  animation-play-state: paused;
+}
+
+/* marquee keyframes */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
   }
 }
 
-.card {
-  padding: 2em;
+/* prefers-reduced-motion: stop animation */
+@media (prefers-reduced-motion: reduce) {
+  .marquee .hint {
+    animation: none;
+    padding-left: 0;
+  }
 }
 
-.read-the-docs {
-  color: #888;
+/* responsive tweak: slower on small screens */
+@media (max-width: 480px) {
+  .marquee .hint {
+    animation-duration: 12s;
+    font-size: 0.9rem;
+  }
 }

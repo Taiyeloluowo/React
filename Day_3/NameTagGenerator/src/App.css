@@ -1,96 +1,120 @@
-/* Center the entire body content */
+/* Center the body */
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #e9eff4;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #5A5353;
 }
 
-/* Container styling */
-.container {
+/* Main container */
+.nametag-container {
+  background: #E6CCBE;
+  padding: 35px 40px;
+  border-radius: 5px;
+  box-shadow: 0 12px 25px #F6E8EA;
   max-width: 400px;
   width: 90%;
-  padding: 30px;
   text-align: center;
-  background-color: #f1f5f9;
-  border-radius: 15px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
-/* Count display */
-.container p {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 20px;
+/* Header */
+.nametag-container h2 {
+  margin-bottom: 25px;
   color: #333;
 }
 
-/* Buttons common styling */
-.btn_incre, .btn_decre, .btn_reset {
-  padding: 10px 20px;
-  margin: 5px;
+/* Input fields */
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.inputs input {
+  padding: 12px 15px;
   font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+.inputs input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 8px rgba(74, 144, 226, 0.4);
+}
+
+/* Name tag preview */
+.preview {
+  background: #f9fafb;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
+}
+
+.preview .greeting {
+  font-size: 0.95rem;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.preview .name {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #222;
+  margin: 5px 0;
+}
+
+.preview .title {
+  font-size: 1.1rem;
+  color: #4a4a4a;
+  margin: 3px 0;
+}
+
+.preview .company {
+  font-size: 1rem;
+  color: #888;
+  margin-top: 3px;
+}
+
+/* Download button */
+.download {
+  background: linear-gradient(135deg, #4a90e2, #357ab8);
+  color: white;
   border: none;
-  border-radius: 8px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 12px;
   cursor: pointer;
   transition: all 0.3s ease;
-  color: #fff;
 }
 
-/* Increment button */
-.btn_incre {
-  background-color: blue;
+.download:hover {
+  background: linear-gradient(135deg, #357ab8, #2a5c8a);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
 }
 
-.btn_incre:hover {
-  background-color: rgb(162, 162, 203);
-}
-
-/* Decrement button */
-.btn_decre {
-  background-color: green;
-}
-
-.btn_decre:hover {
-  background-color: #c82333;
-}
-
-/* Reset button */
-.btn_reset {
-  background-color: orange;
-}
-
-.btn_reset:hover {
-  background-color: rgb(202, 180, 139);
-}
-
-/* Responsive styling */
-@media (max-width: 768px) {
-  .container {
-    max-width: 90%;
-    padding: 20px;
+/* Responsive */
+@media (max-width: 480px) {
+  .nametag-container {
+    padding: 25px 20px;
   }
 
-  .container p {
-    font-size: 1.8rem;
+  .preview .name {
+    font-size: 1.3rem;
   }
 
-  .btn_incre, .btn_decre, .btn_reset {
-    padding: 10px 15px;
+  .preview .title, .preview .company {
     font-size: 0.95rem;
   }
-}
 
-@media (max-width: 480px) {
-  .container p {
-    font-size: 1.6rem;
-  }
-
-  .btn_incre, .btn_decre, .btn_reset {
+  .download {
     width: 100%;
-    margin: 8px 0;
   }
 }
