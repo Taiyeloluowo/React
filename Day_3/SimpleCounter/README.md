@@ -1,4 +1,6 @@
-## **Part 8: Tasks**
+## Simple Counter
+<img width="593" height="377" alt="Simple Counter" src="https://github.com/user-attachments/assets/6f8d3d06-ba74-4037-b0e1-72c85ad8e0cf" />
+
 
 ## 🎯 Task 1: Simple Counter
 
