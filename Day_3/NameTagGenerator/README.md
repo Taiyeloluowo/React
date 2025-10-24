@@ -1,3 +1,7 @@
+## Name Tag Generator
+<img width="692" height="787" alt="Name Tag Generator" src="https://github.com/user-attachments/assets/3aa19940-6c4b-49b4-ab04-54357281cb6a" />
+
+
 ## 🎯 Task 3: Name Tag Generator
 
 **Task:** Create an input that generates a name tag preview
