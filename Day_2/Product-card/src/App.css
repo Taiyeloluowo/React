@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  padding: 5px;
+  margin: 5px auto;
+  width: 25%;
+  background-color: rgb(135, 216, 216);
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+
+}
+
+.name{
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+
+.price{
+  font-size: 1.5rem;
+  
+}
+
+.imageContainer{
+  margin-top: 20px;
+  
+}
+.product_image{
+  border-radius: 15px;
+  width: 330px
+
+}
+
+.inStock{
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+  color: rgb(4, 134, 134);
+  border-radius: 5px;
+  border-left: 4px solid rgb(4, 134, 134);
+  margin-bottom: 10px;
+}
+
+
+.body{
+  display: flex;
+  height: 100dvh;
+  align-items: center;
+}
+
+.stockStatus.in{
+    color: green;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border-right: 4px solid green;
+}
+.stockStatus.out{
+    color: rgba(255, 0, 0, 0.747);
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border-right: 4px solid rgba(255, 0, 0, 0.747);
+}
+
+
+.priceStock{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 130px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.product_image.outOfStock{
+  overlay: grey;
+}
