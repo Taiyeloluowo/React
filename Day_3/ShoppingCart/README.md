@@ -1,4 +1,6 @@
 ## 🎯 Task 4: Shopping Cart
+<img width="570" height="701" alt="Shopping Cart 1" src="https://github.com/user-attachments/assets/df1326ff-b8d1-4b46-9065-1c05360c1067" />
+
 
 **Task:** Build a simple shopping cart with add/remove functionality
 
