@@ -1,0 +1,82 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #370031, #832232);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+}
+.todo-container {
+  width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #FFF3B0;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px #E09F3E;
+  
+  
+}
+
+/* Heading */
+h2 {
+  font-size: 2rem;
+  color: #832232;;
+  font-weight: 800;
+  margin-bottom: 20px;
+  
+}
+
+.todo-input {
+  display: flex;
+  gap: 10px;
+  color: #E09F3E;
+  
+}
+
+.todo-input input {
+  flex: 1;
+  padding: 8px;
+  color: #E09F3E;
+  
+  
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  color: #E09F3E;
+  background-color: #832232;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #FFF3B0;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.todo-list li.completed {
+  text-decoration: line-through;
+  color: gray;
+  background-color: #540B0E
+}
+
+.todo-filter button {
+  margin: 5px;
+  color: #E09F3E;
+  
+}
+
+.todo-summary {
+  margin-top: 15px;
+  text-align: center;
+  color: #540B0E;
+  
+
+}

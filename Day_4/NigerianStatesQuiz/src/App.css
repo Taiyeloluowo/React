@@ -1,0 +1,78 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #8A817C, #E0AFA0);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.quiz-container {
+  width: 420px;
+  background: #EDE0D4;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  
+}
+
+/* Center only the heading */
+h1 {
+  color: #7F5539;
+  margin-bottom: 10px;
+  text-align: center;
+  
+}
+
+/* Align question and options to the left */
+.question-box {
+  text-align: left;
+  color: #9C6644;
+  
+}
+
+.question-box p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.option {
+  display: block;
+  margin: 8px 0;
+  cursor: pointer;
+  
+}
+
+.submit-btn,
+.restart-btn {
+  background: #B08968;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease;
+}
+
+.submit-btn:hover,
+.restart-btn:hover {
+  background: #DDB892;
+}
+
+.feedback {
+  margin-top: 15px;
+  font-weight: bold;
+
+}
+
+.quiz-end {
+  text-align: center;
+}
+
+.score-board {
+  color: #B08968;
+}
