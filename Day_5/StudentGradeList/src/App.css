@@ -1,0 +1,71 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #1E9AA1, #2E6467);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.grade-container {
+  background: #ACE88D;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  width: 400px;
+  text-align: left;
+}
+
+h2 {
+  color: #2b9348;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.filter-btns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.filter-btns button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #2b9348;
+  color: white;
+  transition: 0.3s;
+}
+
+.filter-btns button:hover {
+  background-color: #1a7431;
+}
+
+.student-list {
+  list-style: none;
+  padding: 0;
+}
+
+.student-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.pass {
+  color: green;
+  font-weight: bold;
+}
+
+.fail {
+  color: red;
+  font-weight: bold;
+}
+
+.summary {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 500;
+}
