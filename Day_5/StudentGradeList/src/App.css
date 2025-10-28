@@ -1,5 +1,5 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(135deg, #1E9AA1, #2E6467);
   display: flex;
   justify-content: center;
@@ -9,10 +9,10 @@ body {
 }
 
 .grade-container {
-  background: #ACE88D;
+  background: #FFB703;
   padding: 25px;
   border-radius: 12px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 3px 10px #000814;
   width: 400px;
   text-align: left;
 }
@@ -51,7 +51,7 @@ h2 {
 
 .student-list li {
   padding: 8px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #147070;
 }
 
 .pass {

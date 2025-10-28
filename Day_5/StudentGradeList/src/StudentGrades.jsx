@@ -27,7 +27,7 @@ const StudentGrades = () => {
 
     return (
         <div className="grade-container">
-            <h2>Student Grades</h2>
+            <h2>Student Grades List</h2>
 
             {/* Filter Buttons */}
             <div className="filter-btns">
