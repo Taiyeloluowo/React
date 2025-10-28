@@ -1,3 +1,7 @@
+## Color Picker
+<img width="585" height="609" alt="Color Picker" src="https://github.com/user-attachments/assets/b7aa00ee-ff57-44de-8603-e4b1d9736a2f" />
+
+
 ## 🎯 Task 2: Color Picker
 
 **Task:** Create a color picker where RGB sliders update a color preview

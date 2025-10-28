@@ -1,3 +1,7 @@
+## Todo List
+<img width="720" height="485" alt="TodoList" src="https://github.com/user-attachments/assets/2f6aae2c-5ef1-4c6e-bcff-09ee2fb3e126" />
+
+
 ## 🎯 Task 3: Todo List with Filter
 
 **Task:** Build a todo list where adding/filtering is split between components

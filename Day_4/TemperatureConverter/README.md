@@ -1,3 +1,7 @@
+## Temperature Converter
+<img width="730" height="509" alt="Temperature Converter" src="https://github.com/user-attachments/assets/40b2c0cf-b916-4731-b154-5a87f4d7ec10" />
+
+
 ## **Part 8: Tasks**
 
 ## 🎯 Task 1: Temperature Converter

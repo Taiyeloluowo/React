@@ -1,3 +1,10 @@
+## Nigerian States Quiz / Question
+<img width="753" height="620" alt="Nigerian State Quiz Question" src="https://github.com/user-attachments/assets/6675b97b-a483-46a3-8a01-e566a2d75dff" />
+
+## Nigerian States Quiz / Answer
+<img width="737" height="542" alt="Nigerian Sate Quiz  Answer" src="https://github.com/user-attachments/assets/46c0de8c-3e2b-4fc6-b4ea-2d796604625c" />
+
+
 ## 🎯 Task 4: Nigerian States Quiz
 
 **Task:** Build a quiz app where question display and answer checking are separate
