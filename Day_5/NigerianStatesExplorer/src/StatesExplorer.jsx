@@ -4,16 +4,16 @@ import "./App.css";
 const StatesExplorer = () => {
     // Step 1: Array of Nigerian States
     const statesData = [
-        { name: "", capital: "Ikeja", region: "North East" },
-        { name: "Oyo", capital: "Ibadan", region: "North Central" },
-        { name: "Kano", capital: "Kano", region: "North West" },
-        { name: "Enugu", capital: "Enugu", region: "South East" },
-        { name: "Kaduna", capital: "Kaduna", region: "South South" },
-        { name: "Plateau", capital: "Jos", region: "North Central" },
-        { name: "Rivers", capital: "Port Harcourt", region: "South West" },
-        { name: "Borno", capital: "Maiduguri", region: "North East" },
-        { name: "Edo", capital: "Benin City", region: "South South" },
-        { name: "Osun", capital: "Osogbo", region: "South West" },
+        { name: "Adamawa", capital: "Yola", region: "North East" },
+        { name: "Jigawa", capital: "Dutse", region: "North West" },
+        { name: "Benue", capital: "Makurdi", region: "North Central" },
+        { name: "Ebonyi", capital: "Abakaliki", region: "South East" },
+        { name: "Cross-river", capital: "Calabar", region: "South South" },
+        { name: "Niger", capital: "Minna", region: "North Central" },
+        { name: "Ekiti", capital: "Ado-Ekiti", region: "South West" },
+        { name: "Gombe", capital: "Gombe", region: "North East" },
+        { name: "Bayelsa", capital: "Yenagoa", region: "South South" },
+        { name: "Ogun", capital: "Abeokuta", region: "South West" },
     ];
 
     // Step 2: State management
