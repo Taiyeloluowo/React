@@ -1,3 +1,11 @@
+## Nigerian States Explorer 
+<img width="588" height="602" alt="Nigerian States Explorer 1" src="https://github.com/user-attachments/assets/9e4b94d4-7c9e-4ed5-b5e4-14205f2579ca" />
+
+
+## Nigerian States Explorer
+<img width="574" height="416" alt="Nigerian States Explorer 2" src="https://github.com/user-attachments/assets/991ea19c-babf-46e3-8491-c84acfe3fb75" />
+
+
 ## 🎯 Task 2: Nigerian States Explorer
 
 **Task:** Create a searchable list of Nigerian states with their capitals
