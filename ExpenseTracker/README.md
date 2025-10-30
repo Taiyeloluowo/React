@@ -1,16 +1,59 @@
-# React + Vite
+## 🎯 Main Project: Build an Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Now that you've seen a complete Task Manager example, build your own **Expense Tracker** application.
 
-Currently, two official plugins are available:
+**Requirements:**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### **Core Features (Must Have):**
+1. **Add Expenses**
+   - Input fields: description, amount, category
+   - Categories: Food, Transport, Bills, Entertainment, Others
+   - Validation: Don't allow empty description or zero amount
 
-## React Compiler
+2. **Display Expenses**
+   - Show all expenses in a list
+   - Each expense shows: description, amount (₦), category, date
+   - Different background colors for different categories
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. **Expense Actions**
+   - Delete button for each expense
+   - Edit functionality (click to edit description/amount)
 
-## Expanding the ESLint configuration
+4. **Filter by Category**
+   - Buttons: All, Food, Transport, Bills, Entertainment, Others
+   - Show only expenses matching selected category
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+5. **Statistics Display**
+   - Total amount spent
+   - Number of expenses
+   - Highest single expense
+   - Spending breakdown by category
+
+6. **Professional Styling**
+   - Clean, modern design
+   - Responsive layout
+   - Nigerian Naira (₦) formatting
+   - Color-coded categories
+
+### **Component Structure You Should Have:**
+
+```
+App.jsx (main - holds all state)
+├── Header.jsx (title, date)
+├── AddExpenseForm.jsx (form to add expenses)
+├── CategoryFilter.jsx (filter buttons)
+├── ExpenseStats.jsx (statistics display)
+├── ExpenseList.jsx (maps through expenses)
+│   └── ExpenseItem.jsx (individual expense)
+└── ExpenseTracker.css (all styles)
+```
+
+### **Sample Data Structure:**
+```javascript
+{
+  id: 1,
+  description: "Lunch at Mama Put",
+  amount: 1500,
+  category: "Food",
+  date: "2025-01-15"
+}
