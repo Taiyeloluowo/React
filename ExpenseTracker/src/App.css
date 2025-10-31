@@ -1,3 +1,4 @@
+/* ======== GLOBAL RESETS ======== */
 * {
   margin: 0;
   padding: 0;
@@ -6,30 +7,36 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f5f5f5;
+  background-color: #DDE5B6;
+  color: #1e1e1e;
+  line-height: 1.5;
 }
 
+/* ========== APP CONTAINER =========== */
 .app {
-  max-width: 600px;
-  margin: 0 auto;
+  max-width: 650px;
+  margin: 40px auto;
   padding: 20px;
 }
 
+/* ===== HEADER ====== */
 .header {
   text-align: center;
   margin-bottom: 30px;
-  color: #008751;
+  color: #003049;
 }
 
 .header h1 {
   margin-bottom: 10px;
+ 
 }
 
 .header p {
-  color: #666;
+  color: #344E41;
   font-size: 14px;
 }
 
+/* ====== ADD FORM ======= */
 .add-form {
   display: flex;
   gap: 10px;
@@ -46,8 +53,8 @@ body {
 
 .add-form button {
   padding: 12px 24px;
-  background-color: #008751;
-  color: white;
+  background-color: #003049;
+  color: #FDF0D5;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -56,9 +63,10 @@ body {
 }
 
 .add-form button:hover {
-  background-color: #006741;
+  background-color: #023E8A;
 }
 
+/* ====== FILTER BUTTONS ======= */
 .filter-buttons {
   display: flex;
   gap: 10px;
@@ -76,11 +84,12 @@ body {
 }
 
 .filter-buttons button.active {
-  background-color: #008751;
+  background-color: #003049;
   color: white;
-  border-color: #008751;
+  border-color: #003049;
 }
 
+/* ======= STATS ======== */
 .stats {
   display: flex;
   justify-content: space-around;
@@ -99,7 +108,7 @@ body {
   display: block;
   font-size: 32px;
   font-weight: bold;
-  color: #008751;
+  color: #003049;
 }
 
 .stat-label {
@@ -109,11 +118,13 @@ body {
   margin-top: 5px;
 }
 
+/* ======== EXPENSE LIST ========= */
 .expense-list {
   background: white;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
 }
 
 .expense-item {
@@ -152,11 +163,26 @@ body {
 .expense-item input[type="text"] {
   flex: 1;
   padding: 8px;
-  border: 2px solid #008751;
+  border: 2px solid #003049;
   border-radius: 5px;
   font-size: 16px;
 }
 
+.expense-amount {
+  min-width: 80px;
+  text-align: right;
+  font-weight: 600;
+  color: 003049;
+}
+
+.stat-item {
+  display: block;
+  margin-top: 4px;
+  color: 003049;
+  font-weight: 500;
+}
+
+/* ======= DELETE BUTTON ======== */
 .delete-btn {
   background: none;
   border: none;
@@ -169,10 +195,13 @@ body {
   transform: scale(1.2);
 }
 
+/* ======== EMPTY MESSAGE ========= */
 .empty-message {
   text-align: center;
   color: #999;
+  font-style: italic;
   padding: 40px;
+  margin-top: 20px;
   background: white;
   border-radius: 10px;
 }

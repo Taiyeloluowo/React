@@ -1,9 +1,13 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 function ExpenseItem({ expense, onToggle, onDelete, onEdit }) {
   const [isEditing, setIsEditing] = useState(false);
   const [editText, setEditText] = useState(expense.text);
   
+  useEffect(() => {
+    setEditText(expense.text);
+  }, [expense.text]);
+
   function handleEdit() {
     if (editText.trim() === '') return;
     onEdit(expense.id, editText);
@@ -30,6 +34,8 @@ function ExpenseItem({ expense, onToggle, onDelete, onEdit }) {
       ) : (
         <span onClick={() => setIsEditing(true)}>{expense.text}</span>
       )}
+
+      <span className="expense-amount">₦{expense.amount.toLocaleString()}</span>
       
       <button onClick={() => onDelete(expense.id)} className="delete-btn">
         🗑️

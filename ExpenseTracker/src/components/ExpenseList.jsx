@@ -10,7 +10,7 @@ function ExpenseList({ expenses, onToggle, onDelete, onEdit }) {
       {expenses.map(expense => (
         <ExpenseItem
           key={expense.id}
-          task={expense}
+          expense={expense}
           onToggle={onToggle}
           onDelete={onDelete}
           onEdit={onEdit}
