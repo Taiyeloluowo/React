@@ -1,6 +1,4 @@
-## 🎯 Main Project: Build an Expense Tracker
-
-Now that you've seen a complete Task Manager example, build your own **Expense Tracker** application.
+## 🎯 Build an Expense Tracker
 
 **Requirements:**
 
