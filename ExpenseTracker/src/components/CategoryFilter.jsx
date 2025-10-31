@@ -1,20 +1,20 @@
-function FilterButtons({ currentFilter, onFilterChange }) {
+function CategoryFilter({ currentFilter, onFilterChange }) {
   return (
     <div className="filter-buttons">
       <button 
-        className={currentFilter === 'all' ? 'pending' : ''}
+        className={currentFilter === 'all' ? 'active' : ''}
         onClick={() => onFilterChange('all')}
       >
         All
       </button>
       <button 
-        className={currentFilter === 'pending' ? 'pending' : ''}
+        className={currentFilter === 'pending' ? 'active' : ''}
         onClick={() => onFilterChange('pending')}
       >
         Pending
       </button>
       <button 
-        className={currentFilter === 'paid' ? 'pending' : ''}
+        className={currentFilter === 'paid' ? 'active' : ''}
         onClick={() => onFilterChange('paid')}
       >
         Paid
@@ -23,4 +23,4 @@ function FilterButtons({ currentFilter, onFilterChange }) {
   );
 }
 
-export default FilterButtons;
+export default CategoryFilter;
