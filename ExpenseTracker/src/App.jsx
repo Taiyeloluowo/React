@@ -18,12 +18,13 @@ function App() {
     localStorage.setItem('expenses', JSON.stringify(expenses));
   }, [expenses]);
 
-  // Add expense
-  function addExpense(text, amount) {
+  // Add expense with description, amount and category
+  function addExpense(description, amount, category) {
     const newExpense = {
       id: Date.now(),
-      text: text,
-      amount: amount,
+      description,
+      amount: parse.float(amount),
+      category,
       paid: false,
     };
     setExpenses([...expenses, newExpense]);
@@ -42,15 +43,15 @@ function App() {
   }
   
   // Edit expense
-  function editExpense(id, newText) {
+  function editExpense(id, newDescription) {
     setExpenses(expenses.map(expense =>
-      expense.id === id ? { ...expense, text: newText } : expense
+      expense.id === id ? { ...expense, description: newDescription } : expense
     ));
   }
   
-  // Filter expenses
+  // Filter expenses by category
   const filteredExpenses = 
-    filter === 'paid'
+    filter === 'All'
       ? expenses.filter(e => e.paid)
       : filter === 'pending'
       ? expenses.filter(e => !e.paid)
@@ -60,28 +61,8 @@ function App() {
     <div className="app">
       <Header />
       <AddExpenseForm onAddExpense={addExpense} />
-      <div className="filter-buttons">
-        <button
-        className={filter === 'all' ? 'active' : ''}
-        onClick={() => setFilter('all')}
-        >
-          All
-        </button>
-        <button
-          className={filter === 'pending' ? 'active' : ''}onClick={() => setFilter('pending')}
-          >
-            Pending
-          </button>
-          <button
-          className={filter ==='paid' ? 'active' : ''}
-          onClick={() => setFilter('paid')}
-          >
-            Paid
-          </button>
-      </div>
-
+      <CategoryFilter currentFilter={filter} onFilterChange={setFilter} />
       <ExpenseStats expenses={expenses} />
-     
       <ExpenseList 
         expenses={filteredExpenses}
         onToggle={toggleExpense}
