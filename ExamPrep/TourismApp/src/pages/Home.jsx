@@ -17,9 +17,12 @@ function Home() {
                 </div>
                 <div className="stat-card">
                     <h3>200M+</h3>
-
+                    <p>Population</p>
                 </div>
             </div>
+            <Link to="/states" className="explore-btn">Explore States</Link>
         </div>
-    )
+    );
 }
+
+export default Home;
