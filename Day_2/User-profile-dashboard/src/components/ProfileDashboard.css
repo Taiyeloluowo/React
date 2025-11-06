@@ -58,7 +58,8 @@
 }
 
 .stat-item {
-  color: #444;
+  color: #033f1e;
+  font-weight: 600;
   cursor: pointer;
   transition: color 0.3s ease;
 }
@@ -81,10 +82,11 @@
 }
 
 .skill-badge {
-  color: white;
+  color: rgb(240, 237, 199);
   padding: 6px 12px;
   border-radius: 20px;
-  font-size: 0.9rem;
+  font-size: medium;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   transition: transform 0.2s ease;
 }
 
